@@ -1,19 +1,17 @@
 # vue-cli-bug
 
-## Project setup
+Required
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i @vue/cli -g
 ```
 
-### Compiles and minifies for production
+Confirm that exact npm module versions are saved in package.json
 ```
-npm run build
+npm i path -D
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Confirm that vue-cli ignores .npmrc settings
+
+```
+vue add eslint 
+```
